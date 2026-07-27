@@ -1,0 +1,42 @@
+com.example.helloworld.app-material-icons-core-release-0 C:\Users\assud\.gradle\caches\9.3.0\transforms\06391238e8e8cba14db61b5588e348c4\workspace\transformed\material-icons-core-release\res
+com.example.helloworld.app-emoji2-1.3.0-1 C:\Users\assud\.gradle\caches\9.3.0\transforms\093d71fafd05d39fe9b933b59fadc354\workspace\transformed\emoji2-1.3.0\res
+com.example.helloworld.app-ui-graphics-release-2 C:\Users\assud\.gradle\caches\9.3.0\transforms\0b7ab48b1d4eb4042af8ff2a7d69eb80\workspace\transformed\ui-graphics-release\res
+com.example.helloworld.app-core-1.13.1-3 C:\Users\assud\.gradle\caches\9.3.0\transforms\143755389d0862d2f83c9caef1e73081\workspace\transformed\core-1.13.1\res
+com.example.helloworld.app-customview-poolingcontainer-1.0.0-4 C:\Users\assud\.gradle\caches\9.3.0\transforms\177997f9a2c40904f5cc527a6f00438c\workspace\transformed\customview-poolingcontainer-1.0.0\res
+com.example.helloworld.app-profileinstaller-1.3.1-5 C:\Users\assud\.gradle\caches\9.3.0\transforms\2823d25c3306542419b316fe2f425efe\workspace\transformed\profileinstaller-1.3.1\res
+com.example.helloworld.app-core-ktx-1.13.1-6 C:\Users\assud\.gradle\caches\9.3.0\transforms\303b6b6304b556a30a3ed13882501372\workspace\transformed\core-ktx-1.13.1\res
+com.example.helloworld.app-runtime-saveable-release-7 C:\Users\assud\.gradle\caches\9.3.0\transforms\3abf14db6c25246e43986cd7b65c06ab\workspace\transformed\runtime-saveable-release\res
+com.example.helloworld.app-animation-core-release-8 C:\Users\assud\.gradle\caches\9.3.0\transforms\3d6ff8a740f253466b22e154fecb9268\workspace\transformed\animation-core-release\res
+com.example.helloworld.app-ui-util-release-9 C:\Users\assud\.gradle\caches\9.3.0\transforms\3f444987e56085fe2e0c7781e9f5cc45\workspace\transformed\ui-util-release\res
+com.example.helloworld.app-foundation-layout-release-10 C:\Users\assud\.gradle\caches\9.3.0\transforms\459eb53c71adfe4d94132a9581e47f4e\workspace\transformed\foundation-layout-release\res
+com.example.helloworld.app-activity-ktx-1.9.0-11 C:\Users\assud\.gradle\caches\9.3.0\transforms\470326c8cbb7f0ad74999796d5f38658\workspace\transformed\activity-ktx-1.9.0\res
+com.example.helloworld.app-material-ripple-release-12 C:\Users\assud\.gradle\caches\9.3.0\transforms\4dc566bf30a871fcd8d542e5940534d9\workspace\transformed\material-ripple-release\res
+com.example.helloworld.app-startup-runtime-1.1.1-13 C:\Users\assud\.gradle\caches\9.3.0\transforms\4f39824e8c82dceda79da4c1208cd8c6\workspace\transformed\startup-runtime-1.1.1\res
+com.example.helloworld.app-lifecycle-viewmodel-savedstate-2.8.2-14 C:\Users\assud\.gradle\caches\9.3.0\transforms\5186aa73e838ec94467cd437687853ba\workspace\transformed\lifecycle-viewmodel-savedstate-2.8.2\res
+com.example.helloworld.app-lifecycle-viewmodel-release-15 C:\Users\assud\.gradle\caches\9.3.0\transforms\55a1788e79e77f46a86b9fcb9aa1dac9\workspace\transformed\lifecycle-viewmodel-release\res
+com.example.helloworld.app-lifecycle-livedata-core-2.8.2-16 C:\Users\assud\.gradle\caches\9.3.0\transforms\6d02ee721d1d04027cf22e72f3ccf339\workspace\transformed\lifecycle-livedata-core-2.8.2\res
+com.example.helloworld.app-savedstate-1.2.1-17 C:\Users\assud\.gradle\caches\9.3.0\transforms\6f6d7cbae5d71ce53ed7dd58b342bda9\workspace\transformed\savedstate-1.2.1\res
+com.example.helloworld.app-annotation-experimental-1.4.0-18 C:\Users\assud\.gradle\caches\9.3.0\transforms\7b2504dad559f108d9f93da2df727072\workspace\transformed\annotation-experimental-1.4.0\res
+com.example.helloworld.app-runtime-release-19 C:\Users\assud\.gradle\caches\9.3.0\transforms\843ae3e4d7eaced9a747e6951a2f483a\workspace\transformed\runtime-release\res
+com.example.helloworld.app-ui-unit-release-20 C:\Users\assud\.gradle\caches\9.3.0\transforms\848b9d280a1a667550af057cebec650f\workspace\transformed\ui-unit-release\res
+com.example.helloworld.app-activity-1.9.0-21 C:\Users\assud\.gradle\caches\9.3.0\transforms\869f83cd858db0117b2cdf9597501fe2\workspace\transformed\activity-1.9.0\res
+com.example.helloworld.app-activity-compose-1.9.0-22 C:\Users\assud\.gradle\caches\9.3.0\transforms\94ca1df39a3498b6816991c2ad8212f1\workspace\transformed\activity-compose-1.9.0\res
+com.example.helloworld.app-material3-release-23 C:\Users\assud\.gradle\caches\9.3.0\transforms\97d09c0e0a4362a94709bcbe5c73b465\workspace\transformed\material3-release\res
+com.example.helloworld.app-lifecycle-viewmodel-ktx-2.8.2-24 C:\Users\assud\.gradle\caches\9.3.0\transforms\9b51b394f10a00d5ab51e6833fd06dc5\workspace\transformed\lifecycle-viewmodel-ktx-2.8.2\res
+com.example.helloworld.app-lifecycle-runtime-ktx-release-25 C:\Users\assud\.gradle\caches\9.3.0\transforms\a490698ca6697f412d4d37aea0973f98\workspace\transformed\lifecycle-runtime-ktx-release\res
+com.example.helloworld.app-ui-text-release-26 C:\Users\assud\.gradle\caches\9.3.0\transforms\b01f3c4d47f03fdf41d540ccb8886771\workspace\transformed\ui-text-release\res
+com.example.helloworld.app-foundation-release-27 C:\Users\assud\.gradle\caches\9.3.0\transforms\bb97f862e8fc7d5e698b8e73e177c120\workspace\transformed\foundation-release\res
+com.example.helloworld.app-lifecycle-process-2.8.2-28 C:\Users\assud\.gradle\caches\9.3.0\transforms\bdf991197c5919b93dfb6d69ead68383\workspace\transformed\lifecycle-process-2.8.2\res
+com.example.helloworld.app-savedstate-ktx-1.2.1-29 C:\Users\assud\.gradle\caches\9.3.0\transforms\c4cf956db471de5244436fe8b3d8cbaf\workspace\transformed\savedstate-ktx-1.2.1\res
+com.example.helloworld.app-core-runtime-2.2.0-30 C:\Users\assud\.gradle\caches\9.3.0\transforms\c68ef251ca1259ee22f5e2acb8300602\workspace\transformed\core-runtime-2.2.0\res
+com.example.helloworld.app-animation-release-31 C:\Users\assud\.gradle\caches\9.3.0\transforms\cee91f284eb0f0ff93e06acdce6f49ef\workspace\transformed\animation-release\res
+com.example.helloworld.app-ui-geometry-release-32 C:\Users\assud\.gradle\caches\9.3.0\transforms\ddf6b01154d24f79f38f066352c682d0\workspace\transformed\ui-geometry-release\res
+com.example.helloworld.app-lifecycle-runtime-release-33 C:\Users\assud\.gradle\caches\9.3.0\transforms\ed1ebd5d9ebffb50487c66795d9363a8\workspace\transformed\lifecycle-runtime-release\res
+com.example.helloworld.app-ui-release-34 C:\Users\assud\.gradle\caches\9.3.0\transforms\ed6feb750f3146bc8650e584be828a66\workspace\transformed\ui-release\res
+com.example.helloworld.app-ui-tooling-preview-release-35 C:\Users\assud\.gradle\caches\9.3.0\transforms\f70e976268eb23d90272d1b0547e6fc9\workspace\transformed\ui-tooling-preview-release\res
+com.example.helloworld.app-resValues-36 D:\MAD Lab Experiments\Exp-1\app\build\generated\res\resValues\debug
+com.example.helloworld.app-packageDebugResources-37 D:\MAD Lab Experiments\Exp-1\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.helloworld.app-packageDebugResources-38 D:\MAD Lab Experiments\Exp-1\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.helloworld.app-debug-39 D:\MAD Lab Experiments\Exp-1\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.helloworld.app-debug-40 D:\MAD Lab Experiments\Exp-1\app\src\debug\res
+com.example.helloworld.app-main-41 D:\MAD Lab Experiments\Exp-1\app\src\main\res
