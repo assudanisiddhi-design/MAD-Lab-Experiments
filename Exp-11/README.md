@@ -1,3 +1,3 @@
-# Experiment 11: SQLite Database Operations
+# Experiment 11
 
 ## Status: Not done yet

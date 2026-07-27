@@ -1,3 +1,3 @@
-# Experiment 5: Wallpaper Changer
+# Experiment 5
 
 ## Status: Not done yet

@@ -1,3 +1,3 @@
-# Experiment 6: Counter Application
+# Experiment 6
 
 ## Status: Not done yet

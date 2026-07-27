@@ -1,3 +1,3 @@
-# Experiment 3: Simple Calculator
+# Experiment 3
 
 ## Status: Not done yet

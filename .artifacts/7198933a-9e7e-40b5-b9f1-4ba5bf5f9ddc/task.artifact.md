@@ -1,9 +1,9 @@
-- [ ] Create `Exp-1/screenshots/` folder
-- [/] Generate and capture screenshots for Exp-1
+- [x] Create `Exp-1/screenshots/` folder
+- [x] Generate and capture screenshots for Exp-1
     - [x] Test Case 1: Siddhi Assudani USN: 25MCAR0199
-    - [ ] Test Case 2: HelloWorld
-    - [ ] Test Case 3: Welcome to MAD Lab - Experiment 1
-- [ ] Create detailed `Exp-1/README.md`
-- [ ] Update `Exp-2` to `Exp-12` READMEs to "Not done yet"
-- [ ] Update root `README.md`
-- [ ] Push all changes to GitHub
+    - [x] Test Case 2: HelloWorld
+    - [x] Test Case 3: Welcome to MAD Lab - Experiment 1
+- [x] Create detailed `Exp-1/README.md`
+- [x] Update `Exp-2` to `Exp-12` READMEs to "Not done yet"
+- [x] Update root `README.md`
+- [x] Push all changes to GitHub

@@ -1,3 +1,3 @@
-# Experiment 2: Visiting Card App
+# Experiment 2
 
 ## Status: Not done yet

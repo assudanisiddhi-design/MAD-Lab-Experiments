@@ -1,3 +1,3 @@
-# Experiment 7: JSON and XML Parser
+# Experiment 7
 
 ## Status: Not done yet

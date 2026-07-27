@@ -1,3 +1,3 @@
-# Experiment 12: Notification Manager
+# Experiment 12
 
 ## Status: Not done yet

@@ -1,3 +1,3 @@
-# Experiment 4: Sign Up & Login with Validation
+# Experiment 4
 
 ## Status: Not done yet

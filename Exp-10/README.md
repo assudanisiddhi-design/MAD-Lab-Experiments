@@ -1,3 +1,3 @@
-# Experiment 10: GPS Location Tracker
+# Experiment 10
 
 ## Status: Not done yet

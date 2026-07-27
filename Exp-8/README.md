@@ -1,3 +1,3 @@
-# Experiment 8: Text-to-Speech (TTS)
+# Experiment 8
 
 ## Status: Not done yet

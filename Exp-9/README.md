@@ -1,3 +1,3 @@
-# Experiment 9: Phone Dialer (Call & Save)
+# Experiment 9
 
 ## Status: Not done yet
