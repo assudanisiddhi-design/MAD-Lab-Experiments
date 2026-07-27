@@ -1,15 +1,9 @@
-- [x] Create folders and READMEs for Exp-2 to Exp-12
-    - [x] Exp-2: Visiting Card
-    - [x] Exp-3: Calculator
-    - [x] Exp-4: Sign Up/Login
-    - [x] Exp-5: Wallpaper Changer
-    - [x] Exp-6: Counter App
-    - [x] Exp-7: JSON/XML Parser
-    - [x] Exp-8: Text-to-Speech
-    - [x] Exp-9: Phone Dialer
-    - [x] Exp-10: GPS Location
-    - [x] Exp-11: SQLite DB
-    - [x] Exp-12: Notification Manager
-- [x] Create root README.md
-- [x] Initialize Git repository
-- [/] Add remote and push to GitHub
+- [ ] Create `Exp-1/screenshots/` folder
+- [/] Generate and capture screenshots for Exp-1
+    - [x] Test Case 1: Siddhi Assudani USN: 25MCAR0199
+    - [ ] Test Case 2: HelloWorld
+    - [ ] Test Case 3: Welcome to MAD Lab - Experiment 1
+- [ ] Create detailed `Exp-1/README.md`
+- [ ] Update `Exp-2` to `Exp-12` READMEs to "Not done yet"
+- [ ] Update root `README.md`
+- [ ] Push all changes to GitHub

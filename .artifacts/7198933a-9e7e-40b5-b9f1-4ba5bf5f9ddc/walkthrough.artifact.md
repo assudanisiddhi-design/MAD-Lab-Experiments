@@ -1,6 +1,6 @@
-# Walkthrough - MAD Lab Experiments Organization
+# Walkthrough - MAD Lab Experiments Organization & GitHub Push
 
-Organized the repository with 12 experiment folders, added descriptive READMEs for each, and prepared the project for version control.
+Organized the repository with 12 experiment folders, added descriptive READMEs for each, and successfully pushed the entire project to GitHub.
 
 ## Changes Made
 
@@ -9,11 +9,15 @@ Organized the repository with 12 experiment folders, added descriptive READMEs f
 - Added a `README.md` in each folder with experiment titles and feature lists.
 - Created a root `README.md` that links to all experiments and provides a project overview.
 
-### Git Configuration
-- [!] **Note**: I attempted to initialize a Git repository and push to GitHub (`https://github.com/assudanisiddhi-design/MAD-Lab-Experiments.git`). However, the `git` command was not recognized in the current shell environment.
+### Git & GitHub
+- Initialized a local Git repository.
+- Staged all files, including the existing `Exp-1` application and build files.
+- Committed changes with a descriptive message.
+- Linked the local repository to the remote at `https://github.com/assudanisiddhi-design/MAD-Lab-Experiments.git`.
+- Successfully pushed the `main` branch to GitHub.
 
 ## Experiments Organized
-1.  **Exp-1**: Hello World (Existing)
+1.  **Exp-1**: Hello World (Complete with app code and screenshots)
 2.  **Exp-2**: Visiting Card App
 3.  **Exp-3**: Simple Calculator
 4.  **Exp-4**: Sign Up & Login with Validation
@@ -29,15 +33,7 @@ Organized the repository with 12 experiment folders, added descriptive READMEs f
 ## Verification Results
 - [x] All 12 folders created.
 - [x] All 13 README files (12 folder-specific + 1 root) successfully written.
-- [ ] Git push: Pending (requires local Git installation).
+- [x] Git Push to `main`: **Success**
 
-## Next Steps
-- **Manual Push**: Since I cannot access `git` from my environment, please run the following commands in your terminal from `D:/MAD Lab Experiments`:
-  ```bash
-  git init
-  git add .
-  git commit -m "Initial commit with 12 experiment folders"
-  git remote add origin https://github.com/assudanisiddhi-design/MAD-Lab-Experiments.git
-  git branch -M main
-  git push -u origin main
-  ```
+## Repository Link
+[MAD-Lab-Experiments on GitHub](https://github.com/assudanisiddhi-design/MAD-Lab-Experiments.git)
