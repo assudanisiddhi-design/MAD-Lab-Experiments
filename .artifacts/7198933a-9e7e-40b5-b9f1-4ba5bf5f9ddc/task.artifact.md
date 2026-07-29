@@ -1,9 +1,12 @@
-- [x] Create `Exp-1/screenshots/` folder
-- [x] Generate and capture screenshots for Exp-1
-    - [x] Test Case 1: Siddhi Assudani USN: 25MCAR0199
-    - [x] Test Case 2: HelloWorld
-    - [x] Test Case 3: Welcome to MAD Lab - Experiment 1
-- [x] Create detailed `Exp-1/README.md`
-- [x] Update `Exp-2` to `Exp-12` READMEs to "Not done yet"
-- [x] Update root `README.md`
-- [x] Push all changes to GitHub
+- [x] Include `:Exp-2:app` in `settings.gradle.kts`
+- [x] Create folder structure for `Exp-2/app`
+- [x] Create `Exp-2/build.gradle.kts` and `Exp-2/app/build.gradle.kts`
+- [x] Create `AndroidManifest.xml` with all Activities
+- [x] Implement `LoginActivity.kt` (Name & USN authentication)
+- [x] Implement `DashboardActivity.kt` (Navigation options)
+- [x] Implement `HomeActivity.kt` (Placeholder screen)
+- [x] Implement `LifecycleActivity.kt` (Lifecycle method tracking)
+- [x] Implement `AccountActivity.kt` (User details display)
+- [x] Sync Gradle and Build project
+- [x] Capture screenshots and verify functionality
+- [x] Update `Exp-2/README.md`

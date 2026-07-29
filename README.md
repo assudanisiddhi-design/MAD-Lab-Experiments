@@ -5,7 +5,7 @@ This repository contains a collection of 12 Android development experiments as p
 ## Experiments List
 
 1.  **[Exp-1](./Exp-1)**: Hello World - Simple Android application with detailed documentation and test cases. (**Done**)
-2.  **[Exp-2](./Exp-2)**: Not done yet
+2.  **[Exp-2](./Exp-2)**: Activity Lifecycle - Multi-activity app demonstrating lifecycle states and data passing. (**Done**)
 3.  **[Exp-3](./Exp-3)**: Not done yet
 4.  **[Exp-4](./Exp-4)**: Not done yet
 5.  **[Exp-5](./Exp-5)**: Not done yet

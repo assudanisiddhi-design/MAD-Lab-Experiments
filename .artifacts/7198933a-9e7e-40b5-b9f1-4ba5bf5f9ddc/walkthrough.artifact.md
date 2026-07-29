@@ -1,27 +1,40 @@
-# Walkthrough - Detailed Documentation & GitHub Update
+# Walkthrough - Experiment 2: Activity Lifecycle Application
 
-Enhanced the repository with detailed documentation for Experiment 1 and updated the status of all other experiments to "Not done yet" in both root and sub-folder READMEs.
+Developed a multi-activity Android application to demonstrate the Activity Lifecycle and data passing between screens.
 
 ## Changes Made
 
-### Experiment 1: Comprehensive Documentation
-- **New README**: Created [Exp-1/README.md](file:///D:/MAD Lab Experiments/Exp-1/README.md) containing:
-    - Concept and technology (Jetpack Compose, Kotlin).
-    - Detailed project file structure.
-    - Three specific test cases with outcomes.
-- **Screenshots**: Captured and saved three screenshots in [Exp-1/screenshots/](file:///D:/MAD Lab Experiments/Exp-1/screenshots/):
-    1. `tc1.png`: "Siddhi Assudani USN: 25MCAR0199" (USN & Name verified)
-    2. `tc2.png`: "HelloWorld"
-    3. `tc3.png`: "Welcome to MAD Lab - Experiment 1"
+### Project Structure
+- Configured a new module `:Exp-2:app` in the root project.
+- Organized the source code into a multi-activity architecture:
+    - `LoginActivity`: Handles user authentication (Name & USN).
+    - `DashboardActivity`: Provides a central navigation hub.
+    - `LifecycleActivity`: Overrides and displays lifecycle callback methods.
+    - `HomeActivity` & `AccountActivity`: Complementary screens for a complete experience.
 
-### Repository-wide Updates
-- **Other Experiments**: Updated READMEs for `Exp-2` through `Exp-12` to clearly state **"Status: Not done yet"**.
-- **Root README**: Updated [README.md](file:///D:/MAD Lab Experiments/README.md) to indicate that only Exp-1 is done and all others are pending.
+### Lifecycle Tracking
+- Implemented `LifecycleActivity` to log every state transition.
+- Used a reactive `mutableStateListOf` to display the sequence of calls directly on the UI in real-time.
+- Added `Toast` notifications for immediate feedback on state changes.
 
-### Version Control
-- All changes, including the new screenshots and READMEs, have been pushed to [GitHub](https://github.com/assudanisiddhi-design/MAD-Lab-Experiments.git).
+### Documentation
+- Created a comprehensive [Exp-2/README.md](file:///D:/MAD Lab Experiments/Exp-2/README.md) with project details and test cases.
+- Captured and embedded 5 screenshots demonstrating the full application flow.
+- Updated the root [README.md](file:///D:/MAD Lab Experiments/README.md) to reflect completion.
 
-## Verification
-- [x] Exp-1 README structure and screenshots verified.
-- [x] Global status update verified.
-- [x] Git Push: **Successful**
+## Verification Results
+
+### Build & Sync
+- [x] Gradle Sync: Successful
+- [x] Build Task (`:Exp-2:app:assembleDebug`): Successful
+
+### Functional Testing
+- [x] **Authentication**: Successfully passed Name and USN from Login to other activities.
+- [x] **Navigation**: Verified all three dashboard options lead to correct screens.
+- [x] **Lifecycle Methods**: Confirmed `onCreate`, `onStart`, and `onResume` are called in sequence. Verified `onPause` and `onStop` when navigating away.
+
+## Screenshots
+- [Login Screen](file:///D:/MAD Lab Experiments/Exp-2/screenshots/login.png)
+- [Dashboard](file:///D:/MAD Lab Experiments/Exp-2/screenshots/dashboard.png)
+- [Lifecycle Tracker](file:///D:/MAD Lab Experiments/Exp-2/screenshots/lifecycle.png)
+- [Account Details](file:///D:/MAD Lab Experiments/Exp-2/screenshots/account.png)

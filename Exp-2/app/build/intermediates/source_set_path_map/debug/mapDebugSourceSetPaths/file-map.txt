@@ -1,0 +1,43 @@
+com.example.lifecycleapp-startup-runtime-1.1.1-0 C:\Users\assud\.gradle\caches\9.3.0\transforms\0859d78f162d8ed24835ef0640996da9\workspace\transformed\startup-runtime-1.1.1\res
+com.example.lifecycleapp-lifecycle-livedata-core-2.8.2-1 C:\Users\assud\.gradle\caches\9.3.0\transforms\229e66cb9799c6ef4084b6232e9296c0\workspace\transformed\lifecycle-livedata-core-2.8.2\res
+com.example.lifecycleapp-lifecycle-viewmodel-ktx-2.8.2-2 C:\Users\assud\.gradle\caches\9.3.0\transforms\272b33a9c30e5900cf2a7137d30deced\workspace\transformed\lifecycle-viewmodel-ktx-2.8.2\res
+com.example.lifecycleapp-core-runtime-2.2.0-3 C:\Users\assud\.gradle\caches\9.3.0\transforms\281eb948c37a6e003b9a7c1e084cb91f\workspace\transformed\core-runtime-2.2.0\res
+com.example.lifecycleapp-material3-release-4 C:\Users\assud\.gradle\caches\9.3.0\transforms\29e40cb0843d4571d4437cf820d7f4d0\workspace\transformed\material3-release\res
+com.example.lifecycleapp-ui-text-release-5 C:\Users\assud\.gradle\caches\9.3.0\transforms\3e4a2b5e4d23db371525de2faaf7e867\workspace\transformed\ui-text-release\res
+com.example.lifecycleapp-lifecycle-viewmodel-release-6 C:\Users\assud\.gradle\caches\9.3.0\transforms\404e9b8f788cc06614c3875ff6df6abe\workspace\transformed\lifecycle-viewmodel-release\res
+com.example.lifecycleapp-material-icons-core-release-7 C:\Users\assud\.gradle\caches\9.3.0\transforms\42e3be0d44dab3fc2e4b5e968474768a\workspace\transformed\material-icons-core-release\res
+com.example.lifecycleapp-ui-geometry-release-8 C:\Users\assud\.gradle\caches\9.3.0\transforms\458da003fe5627056f142b4480196681\workspace\transformed\ui-geometry-release\res
+com.example.lifecycleapp-ui-release-9 C:\Users\assud\.gradle\caches\9.3.0\transforms\4b4bc0c2235a6d4af00e3d2692628145\workspace\transformed\ui-release\res
+com.example.lifecycleapp-lifecycle-viewmodel-savedstate-2.8.2-10 C:\Users\assud\.gradle\caches\9.3.0\transforms\4bed222bbdf0aa89f5ff085174d8ba1d\workspace\transformed\lifecycle-viewmodel-savedstate-2.8.2\res
+com.example.lifecycleapp-core-ktx-1.13.1-11 C:\Users\assud\.gradle\caches\9.3.0\transforms\5d327d3635ce626f12a87aa2c971a31e\workspace\transformed\core-ktx-1.13.1\res
+com.example.lifecycleapp-foundation-release-12 C:\Users\assud\.gradle\caches\9.3.0\transforms\62c218e2d48ea182cce5539d97de15af\workspace\transformed\foundation-release\res
+com.example.lifecycleapp-lifecycle-runtime-ktx-release-13 C:\Users\assud\.gradle\caches\9.3.0\transforms\73bf03489cc351be1aa8d42e051ffb67\workspace\transformed\lifecycle-runtime-ktx-release\res
+com.example.lifecycleapp-ui-unit-release-14 C:\Users\assud\.gradle\caches\9.3.0\transforms\8270d5cd29d7a68cf35184a4d2df6257\workspace\transformed\ui-unit-release\res
+com.example.lifecycleapp-savedstate-1.2.1-15 C:\Users\assud\.gradle\caches\9.3.0\transforms\884f8007d304416b680641e969f1313a\workspace\transformed\savedstate-1.2.1\res
+com.example.lifecycleapp-lifecycle-process-2.8.2-16 C:\Users\assud\.gradle\caches\9.3.0\transforms\8c27d82b8092e656b078697dcfc6fc7c\workspace\transformed\lifecycle-process-2.8.2\res
+com.example.lifecycleapp-activity-ktx-1.9.0-17 C:\Users\assud\.gradle\caches\9.3.0\transforms\8fdb7ebb4f463fc5a1d4fdcdae4a9903\workspace\transformed\activity-ktx-1.9.0\res
+com.example.lifecycleapp-profileinstaller-1.3.1-18 C:\Users\assud\.gradle\caches\9.3.0\transforms\93eabd2db75f2b6dde24d8c3e33309b5\workspace\transformed\profileinstaller-1.3.1\res
+com.example.lifecycleapp-lifecycle-runtime-release-19 C:\Users\assud\.gradle\caches\9.3.0\transforms\a0d646796e623257c1397173720faeeb\workspace\transformed\lifecycle-runtime-release\res
+com.example.lifecycleapp-foundation-layout-release-20 C:\Users\assud\.gradle\caches\9.3.0\transforms\b1d7b6d932c95e353890420ec8995f9b\workspace\transformed\foundation-layout-release\res
+com.example.lifecycleapp-activity-compose-1.9.0-21 C:\Users\assud\.gradle\caches\9.3.0\transforms\b28a5c78ac56cddfceae49e59aa5a6c8\workspace\transformed\activity-compose-1.9.0\res
+com.example.lifecycleapp-ui-tooling-preview-release-22 C:\Users\assud\.gradle\caches\9.3.0\transforms\b54fa7704eac2703adbf2765886f1a0e\workspace\transformed\ui-tooling-preview-release\res
+com.example.lifecycleapp-ui-util-release-23 C:\Users\assud\.gradle\caches\9.3.0\transforms\ba735574822e819145a16c19444d0adf\workspace\transformed\ui-util-release\res
+com.example.lifecycleapp-emoji2-1.3.0-24 C:\Users\assud\.gradle\caches\9.3.0\transforms\bff26c4454f077947299731d3cf2b314\workspace\transformed\emoji2-1.3.0\res
+com.example.lifecycleapp-customview-poolingcontainer-1.0.0-25 C:\Users\assud\.gradle\caches\9.3.0\transforms\c6d85fd002b763447e0f33a3b5dbdf78\workspace\transformed\customview-poolingcontainer-1.0.0\res
+com.example.lifecycleapp-runtime-saveable-release-26 C:\Users\assud\.gradle\caches\9.3.0\transforms\ce5b1c4976b6fca62c4ff0d958da8105\workspace\transformed\runtime-saveable-release\res
+com.example.lifecycleapp-activity-1.9.0-27 C:\Users\assud\.gradle\caches\9.3.0\transforms\d0dcb31de1fab04c65bf3e6c04123a4b\workspace\transformed\activity-1.9.0\res
+com.example.lifecycleapp-material-ripple-release-28 C:\Users\assud\.gradle\caches\9.3.0\transforms\d3b3f070b0a7b954adad2e90dca674f4\workspace\transformed\material-ripple-release\res
+com.example.lifecycleapp-runtime-release-29 C:\Users\assud\.gradle\caches\9.3.0\transforms\dec0bae9ee408f5454f6e8b14228c4d5\workspace\transformed\runtime-release\res
+com.example.lifecycleapp-ui-graphics-release-30 C:\Users\assud\.gradle\caches\9.3.0\transforms\e125b69bf44c231be167b903570d4850\workspace\transformed\ui-graphics-release\res
+com.example.lifecycleapp-savedstate-ktx-1.2.1-31 C:\Users\assud\.gradle\caches\9.3.0\transforms\e7d217cc8d27699d49339fb922f9d974\workspace\transformed\savedstate-ktx-1.2.1\res
+com.example.lifecycleapp-core-1.13.1-32 C:\Users\assud\.gradle\caches\9.3.0\transforms\e93897dc3e06b8b1671e009a993960b2\workspace\transformed\core-1.13.1\res
+com.example.lifecycleapp-animation-release-33 C:\Users\assud\.gradle\caches\9.3.0\transforms\f26a37c9be4e0bb491552dd04d9bd43f\workspace\transformed\animation-release\res
+com.example.lifecycleapp-annotation-experimental-1.4.0-34 C:\Users\assud\.gradle\caches\9.3.0\transforms\f8193b458b5d39b49d569887e78a9f0a\workspace\transformed\annotation-experimental-1.4.0\res
+com.example.lifecycleapp-animation-core-release-35 C:\Users\assud\.gradle\caches\9.3.0\transforms\ff5b1ac0bd7b2f85bdd62b3e774cb031\workspace\transformed\animation-core-release\res
+com.example.lifecycleapp-resValues-36 D:\MAD Lab Experiments\Exp-2\app\build\generated\res\resValues\debug
+com.example.lifecycleapp-updated_navigation_xml-37 D:\MAD Lab Experiments\Exp-2\app\build\generated\updated_navigation_xml\debug
+com.example.lifecycleapp-packageDebugResources-38 D:\MAD Lab Experiments\Exp-2\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.lifecycleapp-packageDebugResources-39 D:\MAD Lab Experiments\Exp-2\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.lifecycleapp-debug-40 D:\MAD Lab Experiments\Exp-2\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.lifecycleapp-debug-41 D:\MAD Lab Experiments\Exp-2\app\src\debug\res
+com.example.lifecycleapp-main-42 D:\MAD Lab Experiments\Exp-2\app\src\main\res
