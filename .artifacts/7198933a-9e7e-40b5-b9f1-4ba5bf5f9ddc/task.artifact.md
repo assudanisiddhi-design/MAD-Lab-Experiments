@@ -1,16 +1,16 @@
-- [x] Include `:Exp-6:app` in `settings.gradle.kts`
-- [x] Create folder structure for `Exp-6/app`
-- [x] Create `Exp-6/build.gradle.kts` and `Exp-6/app/build.gradle.kts`
-- [x] Create `AndroidManifest.xml` with permissions and all activities
-- [x] Implement `NotificationHelper.kt`
-- [x] Implement `BasicViewsActivity.kt` (The core showcase form)
-- [x] Port and update other Activities to `com.example.basicviewsapp`:
-    - [x] `LoginActivity.kt`
-    - [x] `DashboardActivity.kt` (Add "Basic Views" button)
-    - [x] `HomeActivity.kt`
-    - [x] `StudentDetailsActivity.kt`
-    - [x] `AccountActivity.kt`
-- [x] Sync and Build project
-- [x] Verify UI components and capture screenshots
-- [x] Update `Exp-6/README.md`
-- [x] Push all changes to GitHub
+- [ ] Include `:Exp-7:app` in `settings.gradle.kts`
+- [ ] Create folder structure for `Exp-7/app`
+- [ ] Create `Exp-7/build.gradle.kts` and `Exp-7/app/build.gradle.kts`
+- [ ] Create `AndroidManifest.xml`
+- [ ] Implement `NotificationHelper.kt`
+- [ ] Implement `AdaptiveListActivity.kt` (The modern ListView + ImageView showcase)
+- [ ] Port and update other Activities to `com.example.adaptivelistapp`:
+    - [ ] `LoginActivity.kt`
+    - [ ] `DashboardActivity.kt` (Add "Adaptive List" button)
+    - [ ] `HomeActivity.kt`
+    - [ ] `StudentDetailsActivity.kt`
+    - [ ] `AccountActivity.kt`
+- [ ] Sync and Build project
+- [ ] Verify adaptive list and capture screenshots
+- [ ] Update `Exp-7/README.md`
+- [ ] Push all changes to GitHub

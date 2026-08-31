@@ -1,38 +1,35 @@
-# Walkthrough - Experiment 6: Basic Android Views Showcase
+# Walkthrough - Experiment 7: Adaptive Application with ListView and ImageView
 
-Developed an Android application that provides a complete showcase of basic UI components (`TextView`, `EditText`, `Button`, `ImageButton`, `CheckBox`, `ToggleButton`, `RadioButton`, and `RadioGroup`) in a modern "Student Survey Form".
+Developed a modern, adaptive Android application featuring a sophisticated list display using collection views and imagery.
 
 ## Changes Made
 
-### Basic Views Implementation
-- **BasicViewsActivity**: Created a new activity containing a comprehensive form:
-    - **Text Components**: Used for headers and labeling.
-    - **Input Fields**: Implemented `OutlinedTextField` for multi-line bio entry.
-    - **Selection Components**: Added `Checkbox` for interest selection and `RadioButton` group for department selection.
-    - **Toggle Components**: Integrated a modern `Switch` for notification preferences.
-    - **Interactive Buttons**: Combined standard `Button` for submission and `IconButton` for contextual information.
+### Adaptive UI Implementation
+- **AdaptiveListActivity**: Created a new activity to showcase a "Course Curriculum" using **LazyColumn** (the modern `ListView`).
+- **Image Integration**: Used Material Icons to represent **ImageView** components for each course item.
+- **Card-Based Design**: Implemented Material 3 `Card` components for each list entry to provide a professional and organized look.
+- **Orientation Support**: Designed the layout to be adaptive, ensuring consistent readability and style across different screen sizes.
 
-### UI & UX Enhancements
-- **Jetpack Compose**: Used for the entire view showcase to ensure elements align with the modern look of previous experiments.
-- **Form Layout**: Organized all elements in a scrollable column for better accessibility and readability.
-- **User Feedback**: Integrated `Toast` messages to provide immediate feedback on interactions (ImageButton click and Form submission).
+### System Updates
+- **Package Refactoring**: Ported all core activities to the `com.example.adaptivelistapp` package.
+- **Navigation Update**: Enhanced the `DashboardActivity` with a direct entry point for the new curriculum list.
 
-### Documentation & Assets
-- Created a detailed [Exp-6/README.md](file:///D:/MAD Lab Experiments/Exp-6/README.md).
-- Captured 3 screenshots demonstrating the View Showcase, the updated Dashboard, and data persistence.
+### Documentation
+- Created a comprehensive [Exp-7/README.md](file:///D:/MAD Lab Experiments/Exp-7/README.md).
+- Captured 3 screenshots demonstrating the new list UI, the updated dashboard, and data consistency.
 - Updated the Root [README.md](file:///D:/MAD Lab Experiments/README.md).
 
 ## Verification Results
 
 ### Build & Sync
 - [x] Gradle Sync: Successful
-- [x] Build Task (`:Exp-6:app:assembleDebug`): Successful
+- [x] Build Task (`:Exp-7:app:assembleDebug`): Successful
 
 ### Functional Testing
-- [x] **Component Interaction**: Verified that all basic views respond to user input and maintain state.
-- [x] **Seamless Integration**: Confirmed that the new showcase integrates into the existing dashboard and authentication flow.
+- [x] **Adaptive List**: Verified that the list scrolls smoothly and displays all item details (Title, Code, Icon, Description).
+- [x] **Feature Continuity**: Confirmed that authentication and notification features remain fully operational.
 
 ## Screenshots
-- [View Showcase Form](file:///D:/MAD Lab Experiments/Exp-6/screenshots/showcase.png)
-- [Updated Dashboard](file:///D:/MAD Lab Experiments/Exp-6/screenshots/dashboard.png)
-- [Student Profile Verification](file:///D:/MAD Lab Experiments/Exp-6/screenshots/student_details.png)
+- [Adaptive List Showcase](file:///D:/MAD Lab Experiments/Exp-7/screenshots/list.png)
+- [Updated Dashboard](file:///D:/MAD Lab Experiments/Exp-7/screenshots/dashboard.png)
+- [Student Details Verification](file:///D:/MAD Lab Experiments/Exp-7/screenshots/student_details.png)

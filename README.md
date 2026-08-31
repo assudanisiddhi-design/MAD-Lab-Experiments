@@ -10,7 +10,7 @@ This repository contains a collection of 12 Android development experiments as p
 4.  **[Exp-4](./Exp-4)**: Activity Intents - Multi-activity app demonstrating linking and data passing using Intents. (**Done**)
 5.  **[Exp-5](./Exp-5)**: Notifications - App for creating and displaying system-level notifications. (**Done**)
 6.  **[Exp-6](./Exp-6)**: Basic Views - Showcase of TextView, EditText, Button, CheckBox, and other basic views. (**Done**)
-7.  **[Exp-7](./Exp-7)**: Not done yet
+7.  **[Exp-7](./Exp-7)**: Adaptive List - Responsive app using ListView (LazyColumn) and ImageView components. (**Done**)
 8.  **[Exp-8](./Exp-8)**: Not done yet
 9.  **[Exp-9](./Exp-9)**: Not done yet
 10. **[Exp-10](./Exp-10)**: Not done yet
