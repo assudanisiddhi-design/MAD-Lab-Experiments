@@ -9,7 +9,7 @@ This repository contains a collection of 12 Android development experiments as p
 3.  **[Exp-3](./Exp-3)**: Fragment UI - Single-activity app using Fragments for a flexible and modern UI. (**Done**)
 4.  **[Exp-4](./Exp-4)**: Activity Intents - Multi-activity app demonstrating linking and data passing using Intents. (**Done**)
 5.  **[Exp-5](./Exp-5)**: Notifications - App for creating and displaying system-level notifications. (**Done**)
-6.  **[Exp-6](./Exp-6)**: Not done yet
+6.  **[Exp-6](./Exp-6)**: Basic Views - Showcase of TextView, EditText, Button, CheckBox, and other basic views. (**Done**)
 7.  **[Exp-7](./Exp-7)**: Not done yet
 8.  **[Exp-8](./Exp-8)**: Not done yet
 9.  **[Exp-9](./Exp-9)**: Not done yet
