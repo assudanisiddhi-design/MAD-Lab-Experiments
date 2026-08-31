@@ -1,34 +1,35 @@
-# Walkthrough - Experiment 4: Linking Activities using Intents
+# Walkthrough - Experiment 5: Notifications in Android
 
-Successfully implemented a multi-activity application to demonstrate navigation and data passing using Android Intents.
+Developed an Android application to demonstrate system notifications, featuring channel management and permission handling for modern Android versions.
 
 ## Changes Made
 
-### Architecture & UI
-- **Multi-Activity Design**: Shifted from a Fragment-based architecture (Exp-3) to a Multi-Activity model to explicitly demonstrate **Intents**.
-- **Explicit Intents**: Used `Intent(this, TargetActivity::class.java)` to link all major screens.
-- **Modern Look**: Maintained the high-quality **Jetpack Compose** UI from Experiment 3 across all new activities.
+### Notification Implementation
+- **NotificationHelper**: Created a utility class to handle **Notification Channel** registration and notification delivery.
+- **Permission Handling**: Implemented the `POST_NOTIFICATIONS` runtime permission request for Android 13+.
+- **Dashboard Trigger**: Added a dedicated "Trigger Notification" button to the `DashboardActivity`.
 
-### Data Management
-- **Intent Extras**: Implemented data passing for "Name" and "USN" using `intent.putExtra()` and `intent.getStringExtra()`.
-- **Verified Flow**: Verified that data persists correctly as the user navigates from Login -> Dashboard -> Student Details.
+### UI & Architecture
+- **Multi-Activity Design**: Maintained the robust multi-activity flow with Intent data passing.
+- **Modern Look**: Used Material 3 design principles and Jetpack Compose to ensure a professional and responsive UI.
 
 ### Documentation
-- Created a comprehensive [Exp-4/README.md](file:///D:/MAD Lab Experiments/Exp-4/README.md) explaining Explicit Intents and data bundles.
-- Captured 3 screenshots demonstrating the Intent-based navigation flow.
-- Updated the root [README.md](file:///D:/MAD Lab Experiments/README.md) to reflect the completion of Experiment 4.
+- Created a detailed [Exp-5/README.md](file:///D:/MAD Lab Experiments/Exp-5/README.md).
+- Captured 3 screenshots demonstrating the login, dashboard, and student details with notification support.
+- Updated the repository root [README.md](file:///D:/MAD Lab Experiments/README.md).
 
 ## Verification Results
 
 ### Build & Sync
 - [x] Gradle Sync: Successful
-- [x] Build Task (`:Exp-4:app:assembleDebug`): Successful
+- [x] Build Task (`:Exp-5:app:assembleDebug`): Successful
 
 ### Functional Testing
-- [x] **Intent Launching**: Verified that every button correctly triggers `startActivity()`.
-- [x] **Data Transfer**: Confirmed that USN and Name are correctly received by the target activities via Intent extras.
+- [x] **Authentication**: Data (Name/USN) correctly flows through the app.
+- [x] **Notifications**: Verified that clicking "Trigger Notification" generates a system alert.
+- [x] **Permissions**: Confirmed that the app requests permission on Android 13+ devices.
 
 ## Screenshots
-- [Login Screen](file:///D:/MAD Lab Experiments/Exp-4/screenshots/login.png)
-- [Dashboard via Intent](file:///D:/MAD Lab Experiments/Exp-4/screenshots/dashboard.png)
-- [Passed Data Verification](file:///D:/MAD Lab Experiments/Exp-4/screenshots/student_details.png)
+- [Login Screen](file:///D:/MAD Lab Experiments/Exp-5/screenshots/login.png)
+- [Dashboard & Trigger](file:///D:/MAD Lab Experiments/Exp-5/screenshots/dashboard.png)
+- [Profile Data Verification](file:///D:/MAD Lab Experiments/Exp-5/screenshots/student_details.png)

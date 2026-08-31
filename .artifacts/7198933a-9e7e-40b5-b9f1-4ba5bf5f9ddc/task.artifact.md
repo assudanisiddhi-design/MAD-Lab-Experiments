@@ -1,14 +1,13 @@
-- [ ] Include `:Exp-4:app` in `settings.gradle.kts`
-- [ ] Create folder structure for `Exp-4/app`
-- [ ] Create `Exp-4/build.gradle.kts` and `Exp-4/app/build.gradle.kts`
-- [ ] Create `AndroidManifest.xml` with all Activities registered
-- [ ] Implement Activities with Modern Compose UI and Intent passing:
-    - [ ] `LoginActivity.kt` (Initial data entry)
-    - [ ] `DashboardActivity.kt` (Main hub)
-    - [ ] `HomeActivity.kt`
-    - [ ] `StudentDetailsActivity.kt` (Display passed data)
-    - [ ] `AccountActivity.kt`
+- [ ] Include `:Exp-5:app` in `settings.gradle.kts`
+- [ ] Create folder structure for `Exp-5/app`
+- [ ] Create `Exp-5/build.gradle.kts` and `Exp-5/app/build.gradle.kts`
+- [ ] Create `AndroidManifest.xml` with permissions and activities
+- [ ] Implement `NotificationHelper.kt` for channel management
+- [ ] Implement Activities with Modern Compose UI:
+    - [ ] `LoginActivity.kt`
+    - [ ] `DashboardActivity.kt` (Add Trigger Notification button + Permission logic)
+    - [ ] `HomeActivity.kt`, `StudentDetailsActivity.kt`, `AccountActivity.kt`
 - [ ] Sync and Build project
-- [ ] Capture screenshots for Exp-4
-- [ ] Update `Exp-4/README.md`
+- [ ] Verify notification functionality and capture screenshots
+- [ ] Update `Exp-5/README.md`
 - [ ] Push all changes to GitHub
