@@ -1,12 +1,15 @@
-- [x] Include `:Exp-2:app` in `settings.gradle.kts`
-- [x] Create folder structure for `Exp-2/app`
-- [x] Create `Exp-2/build.gradle.kts` and `Exp-2/app/build.gradle.kts`
-- [x] Create `AndroidManifest.xml` with all Activities
-- [x] Implement `LoginActivity.kt` (Name & USN authentication)
-- [x] Implement `DashboardActivity.kt` (Navigation options)
-- [x] Implement `HomeActivity.kt` (Placeholder screen)
-- [x] Implement `LifecycleActivity.kt` (Lifecycle method tracking)
-- [x] Implement `AccountActivity.kt` (User details display)
-- [x] Sync Gradle and Build project
-- [x] Capture screenshots and verify functionality
-- [x] Update `Exp-2/README.md`
+- [ ] Include `:Exp-3:app` in `settings.gradle.kts`
+- [ ] Create folder structure for `Exp-3/app`
+- [ ] Create `Exp-3/build.gradle.kts` and `Exp-3/app/build.gradle.kts`
+- [ ] Create `AndroidManifest.xml`
+- [ ] Implement `UserViewModel.kt`
+- [ ] Implement `MainActivity.kt` with Fragment Container
+- [ ] Implement Fragments with Modern Compose UI:
+    - [ ] `LoginFragment.kt`
+    - [ ] `DashboardFragment.kt`
+    - [ ] `HomeFragment.kt`
+    - [ ] `StudentDetailsFragment.kt`
+    - [ ] `AccountFragment.kt`
+- [ ] Sync and Build project
+- [ ] Verify functionality and modern UI
+- [ ] Update `Exp-3/README.md`

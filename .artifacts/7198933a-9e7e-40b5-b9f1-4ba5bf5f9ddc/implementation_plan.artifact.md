@@ -1,56 +1,54 @@
-# Implementation Plan - Experiment 2: Activity Lifecycle Application
+# Implementation Plan - Experiment 3: Fragment-based Flexible UI with Modern Design
 
-Develop an Android application in the `Exp-2` folder to demonstrate the Activity Lifecycle. The app will include an authentication page, a dashboard, and specific screens for Home, Account, and a detailed Activity Lifecycle tracker.
+Develop a modern Android application in the `Exp-3` folder that utilizes a Single-Activity architecture with Fragments to create a flexible UI.
 
 ## User Review Required
 
 > [!IMPORTANT]
-> - I will implement the application using multiple Activities to clearly demonstrate the transition between lifecycle states.
-> - The "Activity Details" screen will explicitly override and log all major lifecycle methods (`onCreate`, `onStart`, etc.) to both Logcat and the UI.
-> - Data (Name and USN) will be passed from the Login screen to the Dashboard and Account screens using Intents.
+> - I will use a **Single-Activity architecture** where `MainActivity` hosts different Fragments.
+> - Each Fragment will use **Jetpack Compose** for its UI to ensure a "modern look".
+> - Navigation between Fragments will be managed using the **Jetpack Navigation Component**.
+> - A **Shared ViewModel** will be used to pass authentication data (Name and USN) across Fragments.
 
 ## Proposed Changes
 
 ### Project Configuration
 
 #### [MODIFY] [settings.gradle.kts](file:///D:/MAD Lab Experiments/settings.gradle.kts)
-Include the new `:Exp-2:app` module.
+Include the new `:Exp-3:app` module.
 
-#### [NEW] [Exp-2/build.gradle.kts](file:///D:/MAD Lab Experiments/Exp-2/build.gradle.kts)
-Project-level build script for Exp-2.
+#### [NEW] [Exp-3/build.gradle.kts](file:///D:/MAD Lab Experiments/Exp-3/build.gradle.kts)
+Project-level build script for Exp-3.
 
-#### [NEW] [Exp-2/app/build.gradle.kts](file:///D:/MAD Lab Experiments/Exp-2/app/build.gradle.kts)
-Module-level build script with Compose dependencies.
+#### [NEW] [Exp-3/app/build.gradle.kts](file:///D:/MAD Lab Experiments/Exp-3/app/build.gradle.kts)
+Module-level build script with Compose and Navigation dependencies.
 
-#### [NEW] [AndroidManifest.xml](file:///D:/MAD Lab Experiments/Exp-2/app/src/main/AndroidManifest.xml)
-Register all new Activities (`LoginActivity`, `DashboardActivity`, `HomeActivity`, `LifecycleActivity`, `AccountActivity`).
+#### [NEW] [AndroidManifest.xml](file:///D:/MAD Lab Experiments/Exp-3/app/src/main/AndroidManifest.xml)
+Register `MainActivity`.
 
 ### Source Code
 
-#### [NEW] [LoginActivity.kt](file:///D:/MAD Lab Experiments/Exp-2/app/src/main/java/com/example/lifecycleapp/LoginActivity.kt)
-Authentication page requiring "Name" and "USN". On success, navigates to `DashboardActivity`.
+#### [NEW] [UserViewModel.kt](file:///D:/MAD Lab Experiments/Exp-3/app/src/main/java/com/example/fragmentapp/UserViewModel.kt)
+Shared ViewModel to store Name and USN.
 
-#### [NEW] [DashboardActivity.kt](file:///D:/MAD Lab Experiments/Exp-2/app/src/main/java/com/example/lifecycleapp/DashboardActivity.kt)
-Dashboard with three navigation buttons: Home, Activity Details, and Account.
+#### [NEW] [MainActivity.kt](file:///D:/MAD Lab Experiments/Exp-3/app/src/main/java/com/example/fragmentapp/MainActivity.kt)
+The entry point activity that hosts the Fragment Container View.
 
-#### [NEW] [HomeActivity.kt](file:///D:/MAD Lab Experiments/Exp-2/app/src/main/java/com/example/lifecycleapp/HomeActivity.kt)
-A simple landing page for the "Home" option.
-
-#### [NEW] [LifecycleActivity.kt](file:///D:/MAD Lab Experiments/Exp-2/app/src/main/java/com/example/lifecycleapp/LifecycleActivity.kt)
-The core of Experiment 2. It will override all lifecycle methods and update a UI list or display Toasts to show the current state transitions.
-
-#### [NEW] [AccountActivity.kt](file:///D:/MAD Lab Experiments/Exp-2/app/src/main/java/com/example/lifecycleapp/AccountActivity.kt)
-Displays the user's "Name" and "USN" captured during login.
+#### [NEW] [Fragments](file:///D:/MAD Lab Experiments/Exp-3/app/src/main/java/com/example/fragmentapp/ui/)
+- `LoginFragment.kt`: Modern auth screen.
+- `DashboardFragment.kt`: Navigation hub (Home, Student Details, Account).
+- `HomeFragment.kt`: Modern placeholder.
+- `StudentDetailsFragment.kt`: Displays Name and USN with enhanced styling.
+- `AccountFragment.kt`: User profile screen.
 
 ## Verification Plan
 
 ### Automated Tests
-- Run `./gradlew :Exp-2:app:assembleDebug` to verify the build.
+- Run `./gradlew :Exp-3:app:assembleDebug` to verify the build.
 
 ### Manual Verification
-1. Launch the app on the emulator.
-2. Enter "Siddhi Assudani" and "25MCAR0199" in the Login screen.
-3. Navigate to the Dashboard.
-4. Open "Activity Details" and observe the lifecycle logs in Logcat and on-screen messages.
-5. Test transitions (rotating the device, going to home, returning to the app) to see lifecycle changes.
-6. Verify the Account screen shows the correct details.
+1. Launch the app.
+2. Enter details in `LoginFragment`.
+3. Verify navigation to `DashboardFragment` using Fragment transactions/Navigation component.
+4. Check "Student Details" screen for correctly passed data and modern UI.
+5. Verify transitions between all screens.

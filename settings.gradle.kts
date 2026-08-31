@@ -18,3 +18,4 @@ dependencyResolutionManagement {
 rootProject.name = "MAD Lab Experiments"
 include(":Exp-1:app")
 include(":Exp-2:app")
+include(":Exp-3:app")
