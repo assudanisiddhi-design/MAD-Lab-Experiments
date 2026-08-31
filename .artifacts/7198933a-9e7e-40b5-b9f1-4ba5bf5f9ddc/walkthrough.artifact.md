@@ -1,34 +1,34 @@
-# Walkthrough - Experiment 3: Fragment-based Flexible UI with Modern Design
+# Walkthrough - Experiment 4: Linking Activities using Intents
 
-Developed a modern, single-activity Android application using Fragments to create a flexible and responsive UI.
+Successfully implemented a multi-activity application to demonstrate navigation and data passing using Android Intents.
 
 ## Changes Made
 
 ### Architecture & UI
-- **Single-Activity Design**: Implemented `MainActivity` as the primary host for all app screens.
-- **Fragment Management**: Used `supportFragmentManager` to swap between modular UI components (`LoginFragment`, `DashboardFragment`, etc.).
-- **Modern Look**: Integrated **Jetpack Compose** within each Fragment to deliver a high-quality, modern aesthetic using Material 3.
-- **Enhanced Dashboard**: Replaced the "Activity Details" option with **"Student Details"** as requested.
+- **Multi-Activity Design**: Shifted from a Fragment-based architecture (Exp-3) to a Multi-Activity model to explicitly demonstrate **Intents**.
+- **Explicit Intents**: Used `Intent(this, TargetActivity::class.java)` to link all major screens.
+- **Modern Look**: Maintained the high-quality **Jetpack Compose** UI from Experiment 3 across all new activities.
 
 ### Data Management
-- **Shared ViewModel**: Implemented `UserViewModel` to ensure seamless data sharing (Name and USN) across different fragments without complex bundle passing.
+- **Intent Extras**: Implemented data passing for "Name" and "USN" using `intent.putExtra()` and `intent.getStringExtra()`.
+- **Verified Flow**: Verified that data persists correctly as the user navigates from Login -> Dashboard -> Student Details.
 
 ### Documentation
-- Created a comprehensive [Exp-3/README.md](file:///D:/MAD Lab Experiments/Exp-3/README.md) with details on the fragment-based approach and UI enhancements.
-- Captured and stored 3 key screenshots in `Exp-3/screenshots/` demonstrating the login, dashboard, and student details.
+- Created a comprehensive [Exp-4/README.md](file:///D:/MAD Lab Experiments/Exp-4/README.md) explaining Explicit Intents and data bundles.
+- Captured 3 screenshots demonstrating the Intent-based navigation flow.
+- Updated the root [README.md](file:///D:/MAD Lab Experiments/README.md) to reflect the completion of Experiment 4.
 
 ## Verification Results
 
 ### Build & Sync
 - [x] Gradle Sync: Successful
-- [x] Build Task (`:Exp-3:app:assembleDebug`): Successful
+- [x] Build Task (`:Exp-4:app:assembleDebug`): Successful
 
 ### Functional Testing
-- [x] **Authentication**: Verified that user input in `LoginFragment` is correctly saved.
-- [x] **Navigation**: Confirmed smooth transitions between Fragments using the dashboard.
-- [x] **Data Persistence**: Verified that "Student Details" correctly displays the data entered during the login phase.
+- [x] **Intent Launching**: Verified that every button correctly triggers `startActivity()`.
+- [x] **Data Transfer**: Confirmed that USN and Name are correctly received by the target activities via Intent extras.
 
 ## Screenshots
-- [Modern Login](file:///D:/MAD Lab Experiments/Exp-3/screenshots/login.png)
-- [Modern Dashboard](file:///D:/MAD Lab Experiments/Exp-3/screenshots/dashboard.png)
-- [Student Details](file:///D:/MAD Lab Experiments/Exp-3/screenshots/student_details.png)
+- [Login Screen](file:///D:/MAD Lab Experiments/Exp-4/screenshots/login.png)
+- [Dashboard via Intent](file:///D:/MAD Lab Experiments/Exp-4/screenshots/dashboard.png)
+- [Passed Data Verification](file:///D:/MAD Lab Experiments/Exp-4/screenshots/student_details.png)

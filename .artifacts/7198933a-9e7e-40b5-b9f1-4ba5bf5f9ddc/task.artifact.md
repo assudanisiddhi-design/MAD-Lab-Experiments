@@ -1,15 +1,14 @@
-- [ ] Include `:Exp-3:app` in `settings.gradle.kts`
-- [ ] Create folder structure for `Exp-3/app`
-- [ ] Create `Exp-3/build.gradle.kts` and `Exp-3/app/build.gradle.kts`
-- [ ] Create `AndroidManifest.xml`
-- [ ] Implement `UserViewModel.kt`
-- [ ] Implement `MainActivity.kt` with Fragment Container
-- [ ] Implement Fragments with Modern Compose UI:
-    - [ ] `LoginFragment.kt`
-    - [ ] `DashboardFragment.kt`
-    - [ ] `HomeFragment.kt`
-    - [ ] `StudentDetailsFragment.kt`
-    - [ ] `AccountFragment.kt`
+- [ ] Include `:Exp-4:app` in `settings.gradle.kts`
+- [ ] Create folder structure for `Exp-4/app`
+- [ ] Create `Exp-4/build.gradle.kts` and `Exp-4/app/build.gradle.kts`
+- [ ] Create `AndroidManifest.xml` with all Activities registered
+- [ ] Implement Activities with Modern Compose UI and Intent passing:
+    - [ ] `LoginActivity.kt` (Initial data entry)
+    - [ ] `DashboardActivity.kt` (Main hub)
+    - [ ] `HomeActivity.kt`
+    - [ ] `StudentDetailsActivity.kt` (Display passed data)
+    - [ ] `AccountActivity.kt`
 - [ ] Sync and Build project
-- [ ] Verify functionality and modern UI
-- [ ] Update `Exp-3/README.md`
+- [ ] Capture screenshots for Exp-4
+- [ ] Update `Exp-4/README.md`
+- [ ] Push all changes to GitHub
