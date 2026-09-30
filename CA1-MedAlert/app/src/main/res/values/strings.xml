@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MedAlert</string>
+    <string name="welcome_user">Good Morning, %1$s!</string>
+    <string name="medicine_schedule">Your Medicine Schedule</string>
+    <string name="add_medicine_title">Add New Medicine</string>
+    <string name="medicine_details_title">Medicine Details</string>
+    <string name="empty_state_text">No medicines scheduled yet</string>
+    <string name="empty_state_hint">Add your first medicine to start your schedule.</string>
+    <string name="medicine_name_label">Medicine Name</string>
+    <string name="dosage_label">Dosage</string>
+    <string name="type_label">Medicine Type</string>
+    <string name="frequency_label">Frequency</string>
+    <string name="reminder_label">Reminder Required</string>
+    <string name="save_button">Save Medicine</string>
+</resources>
