@@ -41,6 +41,11 @@ Exp-8/
 │   │   │   │   └── WebViewActivity.kt (Embedded WebView Portal)
 │   │   │   └── AndroidManifest.xml (Manifest with INTERNET Permission)
 │   └── build.gradle.kts (Module Build Script)
+├── screenshots/
+│   ├── dashboard.png (Main Dashboard Screen)
+│   ├── options_menu.png (TopAppBar Options Dropdown Menu)
+│   ├── webview.png (Embedded WebView Web Portal)
+│   └── list.png (Adaptive List with Course Context Menu)
 ├── build.gradle.kts (Sub-project Build Script)
 └── README.md (Documentation)
 ```
@@ -51,19 +56,28 @@ Exp-8/
 3. **Full-Featured Embedded Browser**: JavaScript-enabled `WebView` with custom loading progress indicator, URL text field, and history controls.
 4. **Adaptive UI Persistence**: Maintained list optimization (`LazyColumn`) and adaptive layout structure from Experiment 7.
 
-## Test Cases & Verification
+## Test Cases & Screenshots
 
-### Test Case 1: Options Menu Navigation
-- **Scenario**: Tap the 3-dots Options Menu icon in the top app bar on the Dashboard or Login screen.
-- **Expected Output**: Dropdown menu opens showing links to Home, Adaptive List, Web Portal, Student Profile, Account, and Logout.
+### Test Case 1: Dashboard Hub
+- **Scenario**: Launch the app and authenticate to open the main Dashboard.
+- **Expected Output**: Shows welcome banner ("Welcome, Siddhi Assudani"), experiment details, and quick action navigation buttons.
 - **Result**: Pass
+![Dashboard Hub](./screenshots/dashboard.png)
 
-### Test Case 2: Web Portal Loading & Controls
-- **Scenario**: Navigate to the Web Portal (WebView) and enter `"https://www.google.com"` or select a preset link.
-- **Expected Output**: Progress bar fills during page loading, web page renders smoothly inside the app, and back/forward navigation buttons respond correctly.
+### Test Case 2: Options Menu Navigation
+- **Scenario**: Tap the 3-dots Options Menu icon in the top app bar on the Dashboard or any activity.
+- **Expected Output**: Dropdown menu opens showing quick navigation links to Home, Dashboard, Adaptive List, Web Portal, Student Profile, Account, and Logout.
 - **Result**: Pass
+![Options Menu](./screenshots/options_menu.png)
 
-### Test Case 3: Course Context Menu & Web Reference
-- **Scenario**: Open the Adaptive List Showcase and tap the item menu icon on any course card (e.g., "Mobile App Development").
-- **Expected Output**: Popup menu opens with "Open Web Reference". Clicking it directly launches the WebView displaying the reference portal (`https://developer.android.com`).
+### Test Case 3: Embedded WebView Web Portal
+- **Scenario**: Open Web Portal (WebView) and load a webpage (e.g. `https://www.google.com`).
+- **Expected Output**: Web content renders inside the app's `WebView` with URL address bar, web chrome client progress bar, and bottom navigation controls.
 - **Result**: Pass
+![Embedded WebView Portal](./screenshots/webview.png)
+
+### Test Case 4: Adaptive List & Course Context Menu
+- **Scenario**: Open the Adaptive List Showcase and tap the 3-dots menu icon on a course card (e.g. "Mobile App Development").
+- **Expected Output**: Course context popup menu displays "Open Web Reference" and "Course Info". Selecting "Open Web Reference" launches `WebViewActivity`.
+- **Result**: Pass
+![Adaptive List Context Menu](./screenshots/list.png)
